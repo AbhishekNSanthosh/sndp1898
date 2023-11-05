@@ -1,0 +1,35 @@
+.topBarContainer {
+    width: 100%;
+    height: 3rem;
+    background-color: yellow;
+    color: #646464;
+}
+
+.topBarWrapper {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: space-between;
+    margin: 0 2rem;
+}
+
+.topBarLeft {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.topBarTag {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.topIcon {
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.topBarTxt {
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;k
+}
