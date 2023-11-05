@@ -5,3 +5,26 @@
   letter-spacing: 0.7px;
   -webkit-tap-highlight-color: transparent;
 }
+
+*::-webkit-scrollbar {
+  width: 7px;
+}
+
+@media only screen and (max-width: 767px) {
+  *::-webkit-scrollbar {
+      width: 3.4px;
+  }
+
+  * {
+      -webkit-tap-highlight-color: transparent;
+  }
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgba(226, 226, 226, 0.788);
+  border-radius: 6px;
+}
+
+*::-webkit-scrollbar-track:hover {
+  background-color: #ffd6d6;
+}

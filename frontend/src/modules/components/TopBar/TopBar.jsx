@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './TopBar.module.css'
 import { FaFacebookF, FaInstagram, FaMailchimp, FaPhone, FaWhatsapp } from 'react-icons/fa';
 
-export default function TopBar() {
+export const TopBar = () => {
   return (
     <div className={styles.topBarContainer}>
       <div className={styles.topBarWrapper}>

@@ -1,0 +1,43 @@
+.updatesContainer {
+    width: 100%;
+}
+
+.updatesWrap {
+    margin: 1.19rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.updatesBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    padding-top: 1.2rem;
+    gap: 1rem;
+    /* max-height: 10rem; */
+    height: auto;
+    max-height: 470px;
+    overflow-y: auto;
+}
+
+.updatesRow {
+    display: flex;
+    align-items: center;
+}
+
+.iconContainer {
+    margin-right: 10px;
+}
+
+.updatesTxt {
+    font-size: 1.39rem;
+}

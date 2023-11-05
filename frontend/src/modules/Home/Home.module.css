@@ -1,0 +1,14 @@
+.section {
+    display: flex;
+    margin: 2rem;
+}
+
+.eventsSection{
+    display: flex;
+    flex: 7;
+}
+
+.updatesSection{
+    display: flex;
+    flex: 5;
+}
